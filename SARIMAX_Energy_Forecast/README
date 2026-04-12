@@ -1,0 +1,37 @@
+# Brazilian Energy Consumption Forecast (SARIMAX)
+
+This repository contains a technical exercise focused on modeling and forecasting Brazil's Total Energy Consumption using EPE (Energy Research Office) data from Jan 2004 to Feb 2026.
+
+## 📌 Project Overview
+The goal of this project is to apply time series econometrics to identify structural signals amid historical shocks and provide a 12-month forecast (March 2026 - February 2027).
+
+This is a foundational exercise designed to demonstrate the importance of manual model tuning over fully automated approaches.
+
+## 🛠️ Methodology
+1. **Data Transformation:** Log-transformation to stabilize variance.
+2. **Decomposition:** STL decomposition to identify trend, seasonality, and residuals.
+3. **Stationarity:** Augmented Dickey-Fuller (ADF) test confirming non-stationarity in levels, followed by first-differencing.
+4. **Modeling:** SARIMAX (Seasonal AutoRegressive Integrated Moving Average with eXogenous factors).
+5. **Exogenous Factors (Dummies):**
+   - 2008/09 Subprime Crisis (Marginally significant).
+   - 2014/15 Water Crisis (Significant).
+   - 2020/21 Pandemic (Showed a residential/industrial substitution effect).
+   - Moving Holidays (Easter).
+
+## 📊 Key Results
+- **Human vs. Machine:** The manually tuned model achieved an **AIC of 965.97**, significantly lower than the Auto-ARIMA (AIC: 1066.00).
+- **2026 Forecast:** Projected growth of **2.01%** for the next 12 months.
+- **Seasonality:** Expected peak in March 2026 (**49.39 TWh**) and trough in July 2026 (**45.93 TWh**).
+
+## 📂 Repository Structure
+- `SARIMA_Energy_Consumption.ipynb`: Full Python script with analysis and visualizations.
+- `Energy_Data.csv`: Dataset sourced from EPE.
+- `Outputs/`: Figures and final report PDF.
+
+## 🚀 How to Use
+1. Clone the repository.
+2. Install dependencies: `pip install pandas statsmodels matplotlib seaborn`.
+3. Run the Jupyter Notebook to replicate the findings.
+
+---
+**Disclaimer:** This is an educational exercise in Data Economics and does not constitute official financial or sectoral advice.

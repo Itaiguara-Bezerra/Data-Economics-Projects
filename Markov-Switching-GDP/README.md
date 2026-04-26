@@ -36,4 +36,4 @@ A crueza dos resultados oblitera os discursos de retomada iminente. A probabilid
 ### 🏛️ Technical Assets | Ativos Técnicos
 * [Full Methodology - English (PDF)](./markov-switching-en.pdf)
 * [Metodologia Completa - Português (PDF)](./markov-switching-pt.pdf)
-* [Growth vs. Regime Chart (PNG)](./grafico-pib.png)
+* [Growth vs. Regime Chart (PNG)](./chart-gdp-two-regimes.png)

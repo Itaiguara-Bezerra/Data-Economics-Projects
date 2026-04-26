@@ -37,3 +37,5 @@ A crueza dos resultados oblitera os discursos de retomada iminente. A probabilid
 * [Full Methodology - English (PDF)](./markov-switching-en.pdf)
 * [Metodologia Completa - Português (PDF)](./markov-switching-pt.pdf)
 * [Growth vs. Regime Chart (PNG)](./chart-gdp-two-regimes.png)
+* [Python Analysis Script (Code)](./markov-switching-analysis_two_regimes.ipynb)
+* [Raw Data - Brazilian GDP (CSV)](./brazil_gdp-data.xlsx)

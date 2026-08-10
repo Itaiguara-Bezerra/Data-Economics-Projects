@@ -55,8 +55,8 @@ VIX_Tupiniquim_I/
 ├── README.md
 ├── VIX_TUPINIQUIM_I_EN.pdf
 ├── VIX_TUPINIQUIM_I_PT.pdf
-├── vix_tupiniquim_pca_lasso_en.ipynb
-├── vix_tupiniquim_pca_lasso_pt.ipynb
+├── vix_tupiniquim_pca_regularization_en.ipynb
+├── vix_tupiniquim_pca_regularization_pt.ipynb
 ├── provocation_granger_epu_en.ipynb
 ├── provocation_granger_epu_pt.ipynb
 └── vix_tupiniquim_historical_series.xlsx
